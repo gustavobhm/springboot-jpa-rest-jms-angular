@@ -3,7 +3,7 @@ springboot-jpa-rest-jms-angular
 
 # Instructions 
 1- Run the Application.java
-#
+#---------------------------------------------------------------------
 2 - Access "http://localhost:8080/invoices/create_data" for Rest endpoint starts a JMS queue that creates the mass of test data.
 #
 3 - Access "http://localhost:8080" for uses the Angularjs interface.
