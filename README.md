@@ -35,3 +35,8 @@ springboot-jpa-rest-jms-angular
    
 5 - This file "SoapUI 5.3.0 Test Rest EndPoints.xml" on the project root, contains the Rest endpoints tests used on the SoapUI 5.3.0.
    
+6 - Queues from ActiveMQ executed on the embedded VM:
+
+   * "queue_invoice"
+   
+   * "queue_commodity"
