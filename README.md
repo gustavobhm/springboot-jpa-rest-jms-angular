@@ -10,7 +10,7 @@ springboot-jpa-rest-jms-angular
    * http://localhost:8080/commodities/all - List all commodities
    * http://localhost:8080/commodities/cod/{cod} - Search by commodity code
    * http://localhost:8080/commodities/save - Save a commodity
-      ** Json example by post -> {"id":1,"cod":"BRA-098","value":400,"description":"Celular Sang"}
+      -> Json example by post -> {"id":1,"cod":"BRA-098","value":400,"description":"Celular Sang"}
    * http://localhost:8080/invoices/all - List all invoices
    * http://localhost:8080/invoices/cod/{cod} - Search by invoice code
    * http://localhost:8080/invoices/emitter/{emitter} - Search by invoice emitter
