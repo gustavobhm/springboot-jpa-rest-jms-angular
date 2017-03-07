@@ -4,9 +4,9 @@ springboot-jpa-rest-jms-angular
 # Instructions 
 1- Run the Application.java
 
-2 - "http://localhost:8080/invoices/create_data" - This Rest endpoint starts a JMS queue that creates the mass of test data
+2 - "http://localhost:8080/invoices/create_data" - This Rest endpoint starts a JMS queue that creates the mass of test data.
 
-3 - Access the "http://localhost:8080" for uses the Angularjs interface
+3 - Access the "http://localhost:8080" for uses the Angularjs interface.
 
 4 - Rest endpoints:
 
@@ -32,4 +32,6 @@ springboot-jpa-rest-jms-angular
       -> Json example by post -> {"id":1,"cod":"003","emitter":"Mercado","description":"NF-10","commodities":[{"id":2,"cod":"BRA-055","value":295.50,"description":"Cadeira James"}]}
       
    * "http://localhost:8080/invoices/create_data" - Create a data mass test
+   
+5 - This file "SoapUI 5.3.0 Test Rest EndPoints.xml" on the project root, contains the Rest endpoints tests used on the SoapUI 5.3.0.
    
