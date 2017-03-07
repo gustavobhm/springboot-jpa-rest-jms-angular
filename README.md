@@ -41,6 +41,7 @@ springboot-jpa-rest-jms-angular
    * "queue_invoice"
    
    * "queue_commodity"
+   
 #
 7 - Access "http://localhost:8080/h2-console" for H2 embedded DataBase
   
