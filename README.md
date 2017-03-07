@@ -3,7 +3,9 @@ springboot-jpa-rest-jms-angular
 
 # Instructions 
 1- Run the Application.java
+
 2- Access the http://localhost:8080 for the Angularjs interface
+
 3- Rest endpoints:
    * http://localhost:8080/commodities/all - List all commodities
    * http://localhost:8080/commodities/cod/{cod} - Search by commodity code
