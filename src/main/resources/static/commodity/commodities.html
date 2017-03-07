@@ -1,0 +1,23 @@
+<div ng-controller="CommodityCtrl as comm">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<strong>List of Commodities</strong>
+		</div>
+		<table class="table">
+			<thead>
+				<tr>
+					<th class="col-sm-1">Cod</th>
+					<th class="col-sm-6">Description</th>
+					<th class="col-sm-1">Value</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="c in comm.commodities">
+					<td>{{ c.cod }}</td>
+					<td>{{ c.description }}</td>
+					<td>{{ c.value }}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

@@ -1,0 +1,44 @@
+<div ng-controller="InvoiceCtrl as inv">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<strong>List of Invoices</strong>
+		</div>
+		<table class="table">
+			<thead>
+				<tr>
+					<th class="col-sm-1">Cod</th>
+					<th class="col-sm-1">Description</th>
+					<th class="col-sm-6">Emitter</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="i in inv.invoices">
+					<td><a ng-click="inv.detail(i)">{{ i.cod }}</a></td>
+					<td>{{ i.description }}</td>
+					<td>{{ i.emitter }}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<strong>{{ inv.i.description }} Commodities of Invoice</strong>
+		</div>
+		<table class="table">
+			<thead>
+				<tr>
+					<th class="col-sm-1">Cod</th>
+					<th class="col-sm-6">Description</th>
+					<th class="col-sm-1">Value</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="c in inv.commodities">
+					<td>{{ c.cod }}</td>
+					<td>{{ c.description }}</td>
+					<td>{{ c.value }}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
